@@ -53,3 +53,26 @@ jspm_packages/
 
 # Aider AI Chat
 .aider*
+
+scope/public/frontend/
+scope/www/scope.html
+# Node/Vite build
+scope/public/frontend/
+scope/www/scope.html
+node_modules/
+dist/
+
+# Python/Frappe
+*.pyc
+__pycache__/
+env/
+*.db
+sites/*/private/*
+sites/*/logs/*
+sites/assets/
+sites/*/public/files/
+sites/*/public/backups/
+
+# OS junk
+.DS_Store
+Thumbs.db
